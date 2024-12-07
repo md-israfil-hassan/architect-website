@@ -6,11 +6,6 @@
     font-family: "Open Sans", sans-serif;
 
 }
-.btn-primary{
-
-
-
-}
 
 
 /* header style */
@@ -86,6 +81,12 @@ width: 100%;
 }
 
 /* main style */
+.section-title{
+font-size: 2.8rem;
+font-weight: 700;
+color: #131313;
+}
+
 
 main{
 max-width: 1440px;
@@ -97,6 +98,7 @@ margin: 0 auto;
 display: flex;
 align-items: center;
 }
+
 .teams-img-container{
 display: grid;
 grid-template-columns: repeat(2, 1fr) ;
@@ -127,11 +129,40 @@ color: #ff900e;
 font-weight: 700;
 }
 
+/* facts section */
+.facts-card-container{
+display: flex;
+justify-content: space-evenly;
+}
 
 
+.facts-card-container .card{
+
+border: 1px solid #ff900e;
+border-radius: 8px;
+text-align: center;
+padding: 30px 40px;
 
 
+}
 
+.facts-card-container .card-title{
+font-weight: 600;
+font-size: 1.2rem;
+}
+
+.facts-card-container .card-stats{
+
+font-size:2.2rem ;
+color: #424242;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.card-title{
+color: #727272;
+
+}
 
 
 
