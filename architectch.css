@@ -68,7 +68,7 @@ color: #131331;
 
 }
 
-.btn-priymary{
+.btn-primary{
 border-radius: 8px;
 color: #FFF;
 font-size: 1.25rem;
@@ -84,6 +84,67 @@ cursor: pointer;
     margin-top: 20px;
 width: 100%;
 }
+
+/* main style */
+
+main{
+max-width: 1440px;
+margin: 0 auto;
+}
+
+/* teams style */
+.teams-container{
+display: flex;
+align-items: center;
+}
+.teams-img-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr) ;
+gap:1.5rem;
+
+}
+
+.teams-content{
+padding-right:70px ;
+padding-left: 70px;
+
+}
+
+.teams-title{
+font-size: 3rem;
+
+}
+
+.teams-content .Quick-list{
+color: #727277; ;
+font-weight:500 ;
+
+}
+
+.teams-title .text-Features{
+
+color: #ff900e;
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive style  */
 /* mobile device */
